@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+input[type="text"] {
+  width: 65%;
+  height: 30px;
+  padding-right: 50px;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+  margin: 0 40px;
+}
+
+button[type="submit"] {
+  margin-left: -70px;
+  height: 35px;
+
+  width: 70px;
+  font-size: 20px;
+  background: lightskyblue;
+  color: white;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background: blue;
+}
+
+ul li {
+  margin: auto;
+  list-style: none;
+  width: 70%;
+  text-transform: capitalize;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+  font-size: 20px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  margin-right: 10px;
+}
+.del {
+  background: palevioletred;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 10px;
+}
+.ed {
+  color: white;
+  background: lightseagreen;
+  padding: 7px;
+  border-radius: 3px;
+  border: none;
+}
